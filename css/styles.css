@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game_title{
+   text-align: center;
+}
+
+.players {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.players .player {
+    border: 1px solid black;
+    width: 45%;
+    text-align: center;
+}
+
+.players .player .image img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.players .player .name {
+font-size: 40px;
+}
+
+.players .player .score_o {
+    font-size: 70px;
+}
+
+.players .player .score_x {
+    font-size: 70px;
+}
+
+.grid {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10xp;
+    background-color: #315896;
+    color: #04c0b2;
+}
+
+
+.grid .cell {
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #315896;
+}
+
+.game_status {
+    font-size: 30px;
+    color: #d7a62f;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.restart_Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+}
+
+.game_restart {
+    background-color: #f7e4ac;
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    color: #5586e2;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+    text-align: center;
+}
