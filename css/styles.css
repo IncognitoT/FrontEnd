@@ -47,7 +47,7 @@ font-size: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10xp;
     background-color: #f7e4ac;
-    color: #04c0b2;
+    color: black;
 }
 
 
@@ -59,6 +59,10 @@ font-size: 40px;
     align-items: center;
     justify-content: center;
     background-color: white;
+}
+
+.grid .cell:hover {
+    background-color: grey;
 }
 
 .game_status {
