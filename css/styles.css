@@ -46,7 +46,7 @@ font-size: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10xp;
-    background-color: #315896;
+    background-color: #f7e4ac;
     color: #04c0b2;
 }
 
@@ -58,7 +58,7 @@ font-size: 40px;
     height: 100px;
     align-items: center;
     justify-content: center;
-    background-color: #315896;
+    background-color: white;
 }
 
 .game_status {
