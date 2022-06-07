@@ -40,6 +40,23 @@ font-size: 40px;
     font-size: 70px;
 }
 
+#msg {
+
+    border: 1px solid green;
+    background-color: greenyellow;
+    color: green;
+    text-align: center;
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    display: none;
+    /*visibility: hidden;*/
+
+}
+
+
 .grid {
     width: 50%;
     margin: auto;
@@ -91,3 +108,4 @@ font-size: 40px;
     border: 2px solid #d86c23;
     text-align: center;
 }
+
